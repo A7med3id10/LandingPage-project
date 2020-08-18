@@ -1,0 +1,92 @@
+/*Base Rules*/
+
+body {
+    background: rgb(33, 56, 70);
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+
+footer {
+    background: rgba(0, 13, 60, 1);
+    padding: 1em;
+}
+
+
+/*Navigation Styles*/
+
+nav {
+    background: rgb(255, 255, 134);
+    padding: 0;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    padding: 0.5em;
+    border: solid .3em rgb(33, 56, 70);
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+li a {
+    font-family: 'Oxygen', Sans-Serif;
+    text-decoration: none;
+    color: rgb(99, 99, 102);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.activeNav {
+    font-weight: bold;
+    color: rgb(205, 50, 102);
+}
+
+
+/*Typeography General*/
+
+h1 {
+    font: 3em 'Fira Sans', sans-serif;
+    text-align: center;
+    margin: 2em 1rem;
+}
+
+h2 {
+    border-bottom: 1px solid #cc1;
+    font-family: 'Oxygen', Sans-Serif;
+    font-size: 3em;
+    color: #fff;
+}
+
+p {
+    line-height: 1.6em;
+    color: #eee;
+}
+
+
+/*sections*/
+
+section {
+    background: rgb(99, 99, 102);
+    border: solid 0.3em rgb(255, 255, 134);
+    margin: 2em;
+    padding: 2em;
+}
+
+.active {
+    background: rgb(141, 219, 95);
+    border: solid 0.3em rgb(212, 212, 186);
+}
+
+h2:hover {
+    cursor: pointer;
+}
